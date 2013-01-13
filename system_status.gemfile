@@ -1,0 +1,12 @@
+Gem::Specification.new do |s|
+  s.name        = 'system_status'
+  s.version     = '0.1'
+  s.date        = '2013-01-13'
+  s.summary     = "system_status, a gem for monitoring external services your app may depend on."
+  s.description = "Puts a page in your Rails apps that shows the connectivity status of your app to external services"
+  s.authors     = ["Matthew Stopa", "Bob Firestone"]
+  s.email       = 'matthew.p.stopa@gmail.com'
+  s.files       = Dir['lib/**/*.rb']
+  s.homepage    =
+    'http://github.com/MattStopa/system_status'
+end
