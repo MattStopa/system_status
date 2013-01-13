@@ -6,7 +6,7 @@ module SystemStatus
 
     def call(env)
       if env["REQUEST_URI"] =~ /system_status/
-        [200, { "Content-Type" => "text/plain; charset=utf-8" }, ["Meow"]]
+        [200, { "Content-Type" => "text/plain; charset=utf-8" }, ["Sample"]]
       else
         @app.call(env)
       end
